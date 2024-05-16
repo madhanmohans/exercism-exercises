@@ -1,4 +1,4 @@
-package Twofer;
+package TwoFer;
 
 public class Twofer {
     public String twofer(String name) {
