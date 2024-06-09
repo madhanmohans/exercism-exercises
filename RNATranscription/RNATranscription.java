@@ -4,8 +4,8 @@ class RnaTranscription {
 
         if(dnaStrand.length() == 0 ) return "";
 
-        String head = transcribeOnePart(dnaStrand.substring(0, 1));
-        String tail = transcribe(dnaStrand.substring(1));
+        String head = transcribeOnePart(dnaStrand.substring(0, 1)); // first letter
+        String tail = transcribe(dnaStrand.substring(1)); // the whole sequence, omitting the first letter
 
         return head + tail;
     }
